@@ -1,9 +1,13 @@
 import React from 'react';
+import logo from '../../images/Logo.svg'
+import './Header.css'
 
 const Header = () => {
     return (
         <div>
-            <h2>This is Header</h2>
+            <nav className='header'>
+                <img src={logo} alt="Logo" />
+            </nav>
         </div>
     );
 };
